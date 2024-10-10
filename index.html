@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Javascript Calculator</h1>
+</header>
+<div class="container">
+    <form action="" onsubmit="return false">
+        <div class="content">
+            <input type="number" placeholder="Enter a Number" class="first" id="input1">
+            <select id="operators" class="symbols">
+            <option value="Add">+</option>
+            <option value="Subtract">-</option>
+            <option value="Multiplication">*</option>
+            <option value="Division">\</option>
+        </select>
+            <input type="number" placeholder="Enter a Second Number" class="first" id="input2">
+        </div>
+        <div>
+            <button type="submit" onclick="calc()" class="results">Submit</button>
+        </div>
+    </form>
+</div>
+<h2 id="result">Result: </h2>
+
+<body>
+    <script src="script.js"></script>
+</body>
+
+</html>
